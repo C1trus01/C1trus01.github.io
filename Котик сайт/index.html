@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cotikbot - Ваш бот для Twitch</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="logo.png" alt="Cotikbot Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#intro">О боте</a></li>
+                <li><a href="#commands">Команды</a></li>
+                <li><a href="#how-to-add">Как добавить</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="intro" class="section fade-in">
+        <h1>Добро пожаловать в Cotikbot</h1>
+        <p>Cotikbot — ваш дружелюбный бот для Twitch, который улучшает чат с помощью команд, таких как обновления погоды и интерактивные игры.</p>
+        <ul class="features">
+            <li>Ответы ИИ с сарказмом</li>
+            <li>Прогнозы погоды</li>
+            <li>Рекомендации контента</li>
+            <li>Статистика канала</li>
+        </ul>
+    </section>
+
+    <section id="commands" class="section fade-in">
+        <h2>Команды Cotikbot</h2>
+        <ul class="command-list">
+            <li><span class="command">!dip <вопрос></span> — Получить ответ ИИ на вопрос.</li>
+            <li><span class="command">!don <вопрос></span> — Случайный ответ "да/нет".</li>
+            <li><span class="command">!kto <вопрос></span> — Случайно выбрать пользователя из чата.</li>
+            <li><span class="command">!set <город></span> — Сохранить город для команд погоды.</li>
+            <li><span class="command">!п [город/ник]</span> — Текущая погода для указанного города или пользователя.</li>
+            <li><span class="command">!vom</span> — Рекомендация фильма, сериала, мультфильма или аниме.</li>
+            <li><span class="command">!web <запрос></span> — Поиск в интернете, возвращает первый результат.</li>
+            <li><span class="command">!ping</span> — Показать статус бота (время работы, использование ресурсов и т.д.).</li>
+            <li><span class="command">!шанс <вопрос></span> — Случайный процент вероятности для вопроса.</li>
+            <li><span class="command">!сколько</span> — Показать статистику канала (например, количество фоловеров).</li>
+            <li><span class="command">!up</span> — Показать время работы текущего стрима и количество зрителей.</li>
+            <li><span class="command">!clear</span> — Очистить память бота (только для админов).</li>
+            <li><span class="command">!help</span> — Показать список всех доступных команд.</li>
+            <li><span class="command">!ban <пользователь> [причина]</span> — Забанить пользователя (только для модераторов).</li>
+            <li><span class="command">!mute <пользователь> <секунд> [причина]</span> — Замутить пользователя на указанное время (только для модераторов).</li>
+            <li><span class="command">!pred время "вопрос" вариант1/вариант2</span> — Создать прогноз с вариантами (только для модераторов).</li>
+            <li><span class="command">!endpred <номер></span> — Завершить прогноз, выбрав победивший вариант (только для модераторов).</li>
+        </ul>
+    </section>
+
+    <section id="how-to-add" class="section fade-in">
+        <h2>Как добавить Cotikbot на ваш канал</h2>
+        <ol class="add-steps">
+            <li>Убедитесь, что вы владелец или модератор канала Twitch.</li>
+            <li>Свяжитесь с владельцем бота через Telegram: <a href="https://t.me/Sosalpososun" target="_blank">Sosalpososun</a>.</li>
+            <li>Предоставьте название вашего канала и любую дополнительную информацию, как указано владельцем.</li>
+            <li>После настройки Cotikbot станет активным в вашем чате!</li>
+        </ol>
+    </section>
+
+    <footer>
+        <a href="https://t.me/Sosalpososun" target="_blank" class="add-button">Добавить Cotikbot на ваш канал</a>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
